@@ -39,6 +39,7 @@ section:nth-of-type(3) {
   font-size: 36pt;
   color: #0072ff;
   margin-bottom: 20px;
+
 }
 
 .texto-sobre p {
@@ -54,7 +55,7 @@ section:nth-of-type(3) {
   overflow: hidden;
   max-width: 500px;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 114, 255, 0.2);
+
   position: relative;
   box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.548);
 }
@@ -200,7 +201,7 @@ section:nth-of-type(3) {
   }
 
   .texto-sobre p {
-    font-size: 17px;
+    font-size: 12px;
     line-height: 1.65;
   }
 
@@ -211,5 +212,11 @@ section:nth-of-type(3) {
 
   .carrossel-sobre img {
     height: 250px;
+  }
+}
+
+@media (max-width: 314px) {
+  .carrossel-sobre .slides img {
+    height: 30vh;
   }
 }
