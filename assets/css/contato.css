@@ -1,0 +1,85 @@
+section:nth-of-type(7) {
+  width: 100vw;
+  height: 100vh;
+  background-color: #00aaff;
+
+}
+
+#contato {
+  width: 100%;
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contato-container {
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeInUp 1s ease both;
+}
+
+.contato-container h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #0072ff;
+}
+
+.contato-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 15px;
+  resize: vertical;
+}
+
+.contato-form button {
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contato-form button:hover {
+  background-color: #005ecb;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .contato-container {
+    padding: 30px 20px;
+  }
+}

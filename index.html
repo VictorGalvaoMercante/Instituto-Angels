@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/sobrenos.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>Instituto Angels</title>
+</head>
+
+<body>
+    <section>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="assets/img/logo.png" alt="">
+            </div>
+            <!-- Botão do menu hambúrguer -->
+            <div id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">INÍCIO</a>
+                <a href="#sobreNos">SOBRE NÓS</a>
+                <a href="#projetos">PROJETOS</a>
+                <a href="#contato">CONTATO</a>
+            </div>
+        </nav>
+
+
+        <div id="frase">
+            <h1 id="typing-text"></h1>
+            <h2>FAZER O BEM SEM OLHAR A QUEM</h2>
+            <p class="subtitulo">Agimos com amor e cuidamos com propósito. Junte-se a nós para transformar vidas com
+                solidariedade.</p>
+
+            <div class="btns">
+                <a href=""><button>CADASTRE-SE</button> </a>
+                <a href=""><button>SAIBA MAIS</button></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="sobreNos">
+
+
+    </section>
+
+
+
+    <section>
+        <section id="sobre-nos">
+            <div class="container-sobre">
+                <div class="texto-sobre">
+                    <h1 class="reveal">SOBRE NÓS</h1>
+                    <p class="reveal">
+                        O Instituto Angels é uma organização sem fins lucrativos que acredita na força da solidariedade
+                        para transformar vidas. Atuamos com projetos sociais voltados à educação, acolhimento e
+                        desenvolvimento humano, com o coração aberto para quem mais precisa.
+                    </p>
+                    <p class="reveal">
+                        Nosso propósito é levar amor, cuidado e esperança a comunidades em situação de vulnerabilidade.
+                        Com a ajuda de voluntários e apoiadores, realizamos ações que fazem a diferença no dia a dia de
+                        centenas de pessoas.
+                    </p>
+                    <p class="reveal">
+                        Junte-se a nós nessa missão de fazer o bem sem olhar a quem.
+                    </p>
+                </div>
+                <div class="carrossel-sobre">
+                    <div class="slides">
+                        <img src="assets/img/sobre1.jpg" alt="Ação social 1">
+                        <img src="assets/img/sobre2.jpg" alt="Ação social 2">
+                        <img src="assets/img/sobre3.jpg" alt="Ação social 3">
+                        <img src="assets/img/sobre4.jpg" alt="Ação social 3">
+                        <img src="assets/img/sobre5.jpg" alt="Ação social 3">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </section>
+
+
+    <section>
+
+    </section>
+
+    <section id="projetos">
+        <h2 class="titulo-projetos">NOSSOS PROJETOS</h2>
+        <div class="grid-projetos">
+            <div class="card-projeto" data-id="1">
+                <h3>Projeto Cestas Solidárias</h3>
+                <img src="assets/img/proj1_1.jpg" alt="Projeto 1">
+            </div>
+            <div class="card-projeto" data-id="2">
+                <h3>Projeto Educar</h3>
+                <img src="assets/img/proj1_2.jpg" alt="Projeto 2">
+            </div>
+            <div class="card-projeto" data-id="2">
+                <h3>Projeto Educar</h3>
+                <img src="assets/img/proj1_2.jpg" alt="Projeto 2">
+            </div>
+            <div class="card-projeto" data-id="2">
+                <h3>Projeto Educar</h3>
+                <img src="assets/img/proj1_2.jpg" alt="Projeto 2">
+            </div>
+            <div class="card-projeto" data-id="2">
+                <h3>Projeto Educar</h3>
+                <img src="assets/img/proj1_2.jpg" alt="Projeto 2">
+            </div>
+            <div class="card-projeto" data-id="2">
+                <h3>Projeto Educar</h3>
+                <img src="assets/img/proj1_2.jpg" alt="Projeto 2">
+            </div>
+        </div>
+
+        <div id="modal-projeto" class="modal hidden">
+            <div class="modal-content">
+                <span class="fechar-modal">&times;</span>
+                <h2 id="modal-titulo"></h2>
+                <p id="modal-descricao"></p>
+                <div class="carrossel-container">
+                    <div class="carrossel" id="modal-carrossel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section></section>
+
+    <section id="contato">
+        <div class="contato-container">
+            <h2>Fale Conosco</h2>
+            <p>Tem alguma dúvida, sugestão ou quer ser voluntário? Envie uma mensagem!</p>
+            <form class="contato-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
