@@ -11,7 +11,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: "League Gothic", sans-serif;
+    font-family: 'League Gothic', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 
 }
 
