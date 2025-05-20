@@ -1,7 +1,7 @@
 section:nth-of-type(3) {
   width: 100vw;
   height: 100vh;
-  background-image: url('../img/backgroundHome.png');
+
 
 }
 
@@ -15,7 +15,7 @@ section:nth-of-type(3) {
 }
 
 #sobre-nos {
-  background-color: #00aaffe5;
+
   padding: 80px 20px;
   font-family: 'Poppins', sans-serif;
 }
