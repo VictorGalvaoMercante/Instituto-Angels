@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     color: black;
-
     scroll-behavior: smooth;
 
 }
@@ -30,7 +29,7 @@ section {
 section:nth-of-type(1) {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/backgroundHome.png);
+    background-image: url(/assets/img/backgroundHome.png);
 
 
 }
