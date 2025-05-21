@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+@font-face {
+    font-family: 'League Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('League Gothic'), url('https://fonts.gstatic.com/s/leaguegothic/v11/i7dPIFZ6e5DUB5zVfkUe0dVwE7E0i4u8Vw.woff2') format('woff2');
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +17,7 @@
     scroll-behavior: smooth;
 
 }
+
 
 body {
     overflow-x: hidden;
@@ -102,7 +113,7 @@ section nav {
     & h1 {
         font-size: 70pt;
         letter-spacing: 5px;
-        font-family: 'League Gothic', Arial, sans-serif;
+        font-family: 'League Gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     }
 
@@ -111,7 +122,8 @@ section nav {
         font-size: 30pt;
         animation: fadeIn 5s;
         margin-top: 10px;
-        font-family: 'League Gothic', Arial, sans-serif;
+        font-family: 'League Gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: normal;
     }
 
     & .subtitulo {
