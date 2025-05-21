@@ -29,6 +29,8 @@ section:nth-of-type(7) {
   font-size: 32px;
   margin-bottom: 10px;
   color: #0072ff;
+  font-family: 'League Gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
 }
 
 .contato-container p {

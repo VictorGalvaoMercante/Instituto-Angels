@@ -1,3 +1,7 @@
+
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+const links = document.querySelectorAll('.nav-links a');
 const text = "INSTITUTO EDUCACIONAL ANGELS";
 const typingElement = document.getElementById("typing-text");
 const navbar = document.getElementById('navbar');
@@ -81,10 +85,6 @@ document.querySelector('.fechar-modal').addEventListener('click', () => {
 });
 
 
-
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-const links = document.querySelectorAll('.nav-links a');
 
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active');

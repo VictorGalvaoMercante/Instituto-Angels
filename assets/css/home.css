@@ -31,7 +31,7 @@ section {
     width: 100vw;
     height: 15vh;
     background-color: rgb(255, 255, 255);
-
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
@@ -204,6 +204,7 @@ section nav {
 
 
 @media (max-width: 768px) {
+
     .nav-links {
         display: none;
         position: absolute;
