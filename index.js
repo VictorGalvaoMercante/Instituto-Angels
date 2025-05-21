@@ -86,12 +86,10 @@ const menuToggle = document.getElementById('menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 const links = document.querySelectorAll('.nav-links a');
 
-// Abre/fecha menu ao clicar no hambúrguer
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
 
-// Fecha o menu ao clicar em qualquer link
 links.forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('active');
