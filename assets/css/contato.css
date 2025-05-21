@@ -32,7 +32,7 @@ section:nth-of-type(7) {
 }
 
 .contato-container p {
-  font-size: 16px;
+  font-size: 16pt;
   margin-bottom: 30px;
   color: #444;
 }
@@ -45,7 +45,7 @@ section:nth-of-type(7) {
   border: 1px solid #ccc;
   border-radius: 8px;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16pt;
   resize: vertical;
 }
 
