@@ -53,20 +53,18 @@ section:nth-of-type(3) {
 .carrossel-sobre {
   flex: 1;
   overflow: hidden;
+  max-width: 100%;
   max-width: 500px;
   border-radius: 12px;
-
   position: relative;
-  box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.548);
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.548);
 }
 
 .carrossel-sobre .slides {
   display: flex;
-  width: 102%;
   animation: slideAnim 12s infinite;
   border-radius: 10px;
-
-
+  width: 100%;
 }
 
 .carrossel-sobre img {
@@ -207,16 +205,17 @@ section:nth-of-type(3) {
 
   .carrossel-sobre {
     max-width: 400px;
-    width: 100%;
+    max-width: 100%;
   }
 
   .carrossel-sobre img {
-    height: 250px;
+    height: auto;
+    max-height: 200px;
   }
 }
 
 @media (max-width: 314px) {
   .carrossel-sobre .slides img {
-    height: 30vh;
+    max-height: 5vh;
   }
 }
