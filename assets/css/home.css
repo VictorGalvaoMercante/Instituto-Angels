@@ -202,6 +202,11 @@ section nav {
 
 /* Responsivo */
 
+@media (max-width: 1024px) {
+    section {
+        background-attachment: scroll !important;
+    }
+}
 
 @media (max-width: 768px) {
 
