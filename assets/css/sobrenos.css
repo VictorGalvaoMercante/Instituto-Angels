@@ -163,15 +163,18 @@ section:nth-of-type(3) {
     line-height: 1.6;
   }
 
+
   .carrossel-sobre {
-    width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+    max-width: 100%;
   }
 
   .carrossel-sobre img {
-    height: 200px;
+    height: auto;
+    max-height: 500px;
   }
 }
+
 
 @media (max-width: 768px) {
   section:nth-of-type(3) {
@@ -212,10 +215,14 @@ section:nth-of-type(3) {
     height: auto;
     max-height: 200px;
   }
+
+  .carrossel-sobre .slides img {
+    max-height: 30vh;
+  }
 }
 
 @media (max-width: 314px) {
   .carrossel-sobre .slides img {
-    max-height: 5vh;
+    max-height: 6vh;
   }
 }
