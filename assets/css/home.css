@@ -102,6 +102,7 @@ section nav {
     & h1 {
         font-size: 70pt;
         letter-spacing: 5px;
+        font-family: 'League Gothic', Arial, sans-serif;
 
     }
 
@@ -110,6 +111,7 @@ section nav {
         font-size: 30pt;
         animation: fadeIn 5s;
         margin-top: 10px;
+        font-family: 'League Gothic', Arial, sans-serif;
     }
 
     & .subtitulo {
