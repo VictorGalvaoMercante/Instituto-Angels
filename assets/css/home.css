@@ -18,6 +18,10 @@
 
 }
 
+section:first-of-type {
+    background-color: #003d66;
+}
+
 
 body {
     overflow-x: hidden;
@@ -40,10 +44,11 @@ section {
 section:nth-of-type(1) {
     width: 100vw;
     height: 100vh;
-    background-color: #000;
+    background-color: #003d66;
     background-image: url('../img/backgroundHome.png');
-
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -115,6 +120,7 @@ section nav {
         letter-spacing: 5px;
         font-family: 'League Gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-weight: normal;
+        color: white;
 
 
     }
