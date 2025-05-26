@@ -40,7 +40,7 @@ section {
 section:nth-of-type(1) {
     width: 100vw;
     height: 100vh;
-    background-color: #003d66;
+    background-color: #008eed;
     background-image: url('../img/backgroundHome.png');
     background-size: cover;
     background-position: center;
