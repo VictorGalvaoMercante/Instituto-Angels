@@ -35,8 +35,6 @@ section:nth-of-type(5) {
   width: 100%;
 }
 
-/* ... mantém o restante do CSS como já está ... */
-
 .card-projeto {
   width: 280px;
   height: 360px;
@@ -139,7 +137,7 @@ section:nth-of-type(5) {
   margin-bottom: 20px;
 }
 
-/* ===== CARROSSEL ===== */
+/*  CARROSSEL  */
 .carrossel-container {
   overflow: hidden;
   border-radius: 12px;
@@ -161,7 +159,6 @@ section:nth-of-type(5) {
   flex-shrink: 0;
 }
 
-/* ===== ANIMAÇÕES ===== */
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -256,7 +253,6 @@ section:nth-of-type(5) {
   #projetos {
     padding: 40px 15px;
     height: auto;
-    /* Deixa a altura flexível */
   }
 
   .titulo-projetos {

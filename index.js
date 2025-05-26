@@ -96,6 +96,24 @@ links.forEach(link => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const explosao = document.querySelector('.explosao');
+
+  const observerExplosao = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        explosao.classList.add('ativo');
+        observer.unobserve(entry.target); // dispara só uma vez
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  if (explosao) {
+    observerExplosao.observe(explosao);
+  }
+});
 
 
 
