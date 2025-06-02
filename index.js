@@ -60,6 +60,25 @@ const projetosData = {
   }
 };
 
+
+const slides = document.getElementById('slides');
+const indicators = document.querySelectorAll('#indicadores span');
+const totalSlides = indicators.length;
+let currentIndex = 0;
+
+function goToSlide(index) {
+  slides.style.transform = `translateX(-${index * 100}%)`;
+  indicators.forEach((el, i) => {
+    el.classList.toggle('ativo', i === index);
+  });
+  currentIndex = index;
+}
+
+indicators.forEach((indicator, i) => {
+  indicator.addEventListener('click', () => goToSlide(i));
+});
+
+
 document.querySelectorAll('.card-projeto').forEach(card => {
   card.addEventListener('click', () => {
     const id = card.dataset.id;
