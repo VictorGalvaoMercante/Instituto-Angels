@@ -114,4 +114,27 @@ links.forEach(link => {
     navLinks.classList.remove('active');
   });
 });
+
+const btnPrev = document.getElementById('prevSlide');
+const btnNext = document.getElementById('nextSlide');
+
+btnPrev.addEventListener('click', () => {
+  const newIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+  goToSlide(newIndex);
+});
+
+btnNext.addEventListener('click', () => {
+  const newIndex = (currentIndex + 1) % totalSlides;
+  goToSlide(newIndex);
+});
+
+
+setInterval(() => {
+  const nextIndex = (currentIndex + 1) % totalSlides;
+  goToSlide(nextIndex);
+}, 2000);
+
+
+
+
 typeEffect();

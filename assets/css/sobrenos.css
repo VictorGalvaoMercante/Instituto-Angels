@@ -113,6 +113,34 @@ section:nth-of-type(3) {
   transform: translateY(0);
 }
 
+.seta {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: white;
+  background: rgba(0, 0, 0, 0.203);
+  padding: 10px;
+  border-radius: 40%;
+  cursor: pointer;
+  z-index: 2;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.seta:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.seta-esquerda {
+  left: 10px;
+}
+
+.seta-direita {
+  right: 10px;
+}
+
+
 
 
 @media (max-width: 415px) {
