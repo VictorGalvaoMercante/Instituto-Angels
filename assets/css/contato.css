@@ -2,7 +2,6 @@ section:nth-of-type(7) {
   width: 100vw;
   height: 100vh;
   background-color: #00aaff;
-
 }
 
 #contato {
@@ -13,6 +12,8 @@ section:nth-of-type(7) {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  letter-spacing: 0.5px;
+   font-family: 'Poppins', sans-serif;
 }
 
 .contato-container {
@@ -31,6 +32,7 @@ section:nth-of-type(7) {
   color: #0072ff;
   font-family: 'League Gothic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
+
 }
 
 .contato-container p {
@@ -39,41 +41,60 @@ section:nth-of-type(7) {
   color: #444;
 }
 
-.contato-form input,
-.contato-form textarea {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-family: inherit;
-  font-size: 16pt;
-  resize: vertical;
+.botoes-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  animation: fadeInUp 1.2s ease both;
 }
 
-.contato-form button {
-  background-color: #0072ff;
+.btn-contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
   color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
 }
 
-.contato-form button:hover {
-  background-color: #005ecb;
+.btn-contato i {
+  font-size: 22px;
 }
 
+/* Cores individuais */
+.btn-contato.whatsapp {
+  background: #25D366;
+}
 
+.btn-contato.instagram {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+.btn-contato.email {
+  background: #0072ff;
+}
+
+/* Hover animation */
+.btn-contato:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Fade animation */
 @keyframes fadeInUp {
   from {
     transform: translateY(40px);
     opacity: 0;
   }
-
   to {
     transform: translateY(0px);
     opacity: 1;
@@ -84,5 +105,10 @@ section:nth-of-type(7) {
 @media (max-width: 600px) {
   .contato-container {
     padding: 30px 20px;
+  }
+
+  .btn-contato {
+    font-size: 16px;
+    padding: 12px 20px;
   }
 }

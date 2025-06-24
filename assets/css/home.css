@@ -9,15 +9,15 @@
 }
 
 * {
+    color: black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
     scroll-behavior: smooth;
+    cursor: pointer;
 
 }
-
 
 body {
     overflow-x: hidden;
